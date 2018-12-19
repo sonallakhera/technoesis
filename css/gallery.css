@@ -1,0 +1,306 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	height: 667px;
+	width: 1366px;
+}
+
+
+#container
+{
+	width: 1366px;
+	height: 667px;
+	overflow:hidden;
+}
+
+
+
+#box
+{
+	width:1050px; 
+	height:667px; 
+	float: right;
+	display: inline;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.8);
+}
+
+
+#photo
+{
+	height: 490px;
+	width: 920px;
+	margin-top: 10px;
+	margin-left: 65px;
+	background:url(imgs/3.jpg);
+	
+	background-color:  rgba(0,0,0,0.4);
+	background-repeat: no-repeat;
+	background-size: 820px 490px;
+	background-position: 50px 0px;
+}
+
+
+#slide
+{
+	height: 150px;
+	width: 2600px;
+	margin-top: 10px;
+	margin-left: -260px;
+	padding: 0px 0px 0px 130px;
+	background-color:transparent;
+	background-size: 950px 550px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+
+}
+
+
+.pics
+{
+	opacity: 0.5;
+	display: inline;
+	position: relative;
+	background-size: 250px 150px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	width: 250px;
+	height: 150px;
+	float: left;
+	-webkit-transition: opacity 0.4s ease-in-out,
+				border 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out,
+				border 0.4s ease-in-out;
+	-ms-transition: opacity 0.4s ease-in-out,
+				border 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out,
+				border 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out,
+				border 0.4s ease-in-out;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+
+#tagline
+{
+	margin:0px 0px 0px 0px ;
+	color:  rgba(255,255,255,0.8);
+	font-size: 20px;
+	font-family:Poiret One;
+	margin-left: 10px;
+}
+
+
+#sidebar
+{
+	color: light green;
+	font-family:Poiret One;
+	font-size: 25px;
+	width: 290px;
+	height: 667px;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	padding-top: 0px;
+	padding-left: 10px; 
+}
+
+#header
+{
+
+	width: 1066px;
+	margin-left: 300px;
+	height: 100px;
+	position: absolute;
+	background-color:  rgba(0,0,0,0.8);
+}
+
+#tag
+{
+	margin:0px 0px 0px 0px ;
+	color: skyblue;
+	font-family:Sacramento;
+	font-size: 70px;
+}
+
+
+
+#left
+{
+	z-index: 20;
+	background-color: rgba(0,0,0,0.8);
+	font-size: 100px;
+	color:  rgba(255,255,255,0.8) ;
+	font-family: gochi hand;
+	line-height: 60%;
+	height: 67px;
+	width: 80px;
+	border-radius: 50%;
+	position: absolute;
+	padding-top: 13px;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+	cursor:pointer;
+}
+
+#left:hover
+{
+	background-color:  rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.8);
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+}
+
+#right
+{
+
+	background-color: rgba(0,0,0,0.8);
+	font-size: 100px;
+	color: rgba(255,255,255,0.8) ;
+	font-family: gochi hand;
+	line-height: 60%;
+	height: 67px;
+	width: 80px;
+	border-radius: 50%;
+	position: absolute;
+	padding-top: 13px;
+	margin-top: -110px;
+	margin-left: 940px;
+	margin-bottom: 0px;
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+	cursor:pointer;
+}
+
+#right:hover
+{
+	background-color:  rgba(255,255,255,0.5);
+	color:rgba(0,0,0,0.8);
+	-webkit-transition: background-color 0.5s linear;
+	-moz-transition: background-color 0.5s linear;
+	-ms-transition: background-color 0.5s linear;
+	-o-transition: background-color 0.5s linear;
+	transition: background-color 0.5s linear;
+
+}
+
+#close{
+	
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	margin-left: 233px;
+	z-index: 21;
+	margin-top: 16px;
+	font-family: Poiret One;
+	color: white;
+	overflow: hidden;
+
+}
+
+
+
+#l-1 , #l-2{
+	width: 56px;
+	height: 2px;
+	background: white;
+	margin-top: 0px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+#l-2{
+	margin-top: 40px;
+}
+
+#close-text{
+	margin-top: -41px;
+	height: 40px;
+	width: 56px;
+	margin-left: -2px;
+	font-size: 20px;
+	line-height: 38px;
+	text-align: center;
+	/*border-left:2px solid white;
+	border-right:2px solid white;*/
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+
+#close:hover #close-text{
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+	display: none;
+}
+#close:hover #l-1{
+	height: 1px;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	transform:rotate(45deg);
+
+	-webkit-transform-origin: 0px 0px;
+	 -moz-transform-origin: 0px 0px;
+	 -ms-transform-origin: 0px 0px;
+	 -o-transform-origin: 0px 0px;
+	 transform-origin: 0px 0px; 
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+#close:hover #l-2{
+	height: 1px;
+-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	
+	-webkit-transform-origin: 0px 0px;
+	 -moz-transform-origin: 0px 0px;
+	 -ms-transform-origin: 0px 0px;
+	 -o-transform-origin: 0px 0px;
+	 transform-origin: 0px 0px; 
+
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}

@@ -1,0 +1,261 @@
+
+body{
+	background: rgba(0,0,0,0.9);
+	color: white;
+}
+#container{
+	
+	width:1366px;
+	height: 667px;
+	min-width: 1366px;
+	min-height: 667px;
+	font-family: Poiret One;
+
+
+}
+#container-heading{
+	text-align: center;
+	font-size: 40px;
+	margin-left: 15px;
+	width: 93%;
+	height: 100px;
+	border-bottom:2px solid rgba(255,255,255,1);
+	line-height: 110px;
+	margin-bottom: 5px;
+
+
+}
+
+.sponsor-type-heading{
+	font-size: 34px;
+	margin-left: -40px;
+	height: 48px;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	
+
+}
+
+ul{
+	margin: auto;
+	width: 80%;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	margin-top: 40px;
+
+}
+li{
+	width: 150px;
+	height: 100px;
+	display: inline-table;
+	/*border: 2px solid rgba(255,255,255,0.5);*/
+	text-align: center;
+	font-size: 24px;
+	padding-top: 50px;
+	/*margin-left: -0.36%;*/
+	margin-left: 2.5%;
+	/*box-shadow: 1px -1px 0px white;*/
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#sponsor-1,#sponsor-6,#sponsor-11,#sponsor-16,#sponsor-21,#sponsor-26,#sponsor-31{
+	margin-left: 70px;}
+
+
+#sponsor-0{
+	margin-left: 41.5%;
+	background:url(../imgs/title-sponsor.png);
+}
+#sponsor-3{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	background-size: 150px 150px;
+	margin-left: -100px;
+}
+#sponsor-4{
+	background: url(../imgs/associate-sponsor-2.png);
+	background-size: 150px 150px;
+	margin-left: 100px;
+	border: 1px solid white;
+}
+
+/*#sponsor-2{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	background-size: 150px 150px;
+}
+#sponsor-3{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	background-size: 150px 150px;
+}
+#sponsor-4{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	background-size: 150px 150px;
+}
+#sponsor-5{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	background-size: 150px 150px;
+}*/
+#sponsor-6{
+	background: url(../imgs/event-sponsor-1.png);
+	}
+#sponsor-7{
+	background: url(../imgs/event-sponsor-2.png);
+
+}
+#sponsor-8{
+	background: url(../imgs/event-sponsor-3.png);
+
+}
+#sponsor-9{
+	background: url(../imgs/event-sponsor-4.png);
+	
+}
+#sponsor-10{
+	background: url(../imgs/event-sponsor-5.png);
+	
+}
+/*#sponsor-11{
+	background: url(../imgs/associate-sponsor-1.jpg);
+	
+}
+#sponsor-12{
+	background: url(../imgs/associate-sponsor-1.jpg);
+
+}
+#sponsor-13{
+	background: url(../imgs/associate-sponsor-1.jpg);
+
+}
+#sponsor-14{
+	background: url(../imgs/associate-sponsor-1.jpg);
+
+}
+#sponsor-15{
+	background: url(../imgs/associate-sponsor-1.jpg);
+
+}*/
+#sponsor-16{
+	background: url(../imgs/cosponsor-1.png);
+
+}
+#sponsor-17{
+	background: url(../imgs/cosponsor-2.png);
+
+}
+#sponsor-18{
+	background: url(../imgs/cosponsor-3.png);
+
+}
+#sponsor-19{
+	background: url(../imgs/cosponsor-4.png);
+
+}
+#sponsor-20{
+	background: url(../imgs/cosponsor-5.png);
+
+}
+#sponsor-21{
+	background: url(../imgs/cosponsor-6.png);
+
+}
+#sponsor-22{
+	background: url(../imgs/cosponsor-7.png);
+
+}
+#sponsor-23{
+	background: url(../imgs/cosponsor-8.png);
+
+}
+#sponsor-24{
+	background: url(../imgs/cosponsor-9.png);
+
+}
+#sponsor-25{
+	background: url(../imgs/cosponsor-25.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+
+#sponsor-26{
+	background: url(../imgs/cosponsor-11.jpg);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#sponsor-27{
+	background: url(../imgs/cosponsor-12.jpg);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#sponsor-28{
+	background: url(../imgs/cosponsor-13.jpg);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#sponsor-29{
+	background: url(../imgs/cosponsor-14.jpg);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#sponsor-30{
+	background: url(../imgs/cosponsor-15.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+#sponsor-31{
+	background: url(../imgs/cosponsor-16.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+
+#sponsor-32{
+	background: url(../imgs/cosponsor-17.png);
+	background-size: 150px;
+	background-repeat: no-repeat;
+
+}
+
+
+.sponsor-detail{
+	
+	margin: auto;
+	width: 70%;
+	height: 80px;
+	font-size: 23px;
+	padding-bottom: 40px;
+	border-bottom: 2px solid white;
+
+}
+
+#sponsor-detail-0{
+	
+text-align: center;
+
+}
+#sponsor-detail-2{
+	
+margin-bottom: 50px;
+
+}
+
+.sponsor-detail .detail {
+	width: 18%;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 0.7%;
+
+
+}
+
+

@@ -1,0 +1,223 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	max-height: 667px;
+	max-width: 1366px;
+	background: black;
+	
+	
+}
+
+
+
+#container-1
+{
+	width: 1366px;
+	height: 667px;
+	overflow: hidden;
+	position: absolute;
+	background-image: url(../imgs/aud1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 667px;
+
+
+	
+
+}
+
+#back{
+	width: 1366px;
+	height: 667px;
+	background-image: url(../imgs/aud1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 667px;
+	position: absolute;
+
+}
+
+
+#header
+{
+	position: absolute;
+	height: 50px;
+	width: 1350px;
+	background-color: ;
+	text-align: right;
+	margin-top: 10px;
+}
+
+
+
+.buttons
+{
+	float: right;
+	background-color: ;
+	border: 1px solid black;
+	border-radius: 5%;
+	padding: 5px 30px 5px 30px ;
+	color: black;
+	font-weight: bold;
+	font-family: Poiret One;
+	font-size: 20px;
+	margin-left: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+ul{
+	padding-left: 50px;
+}
+.buttons:hover
+{
+	cursor: pointer;
+	background-color: #330000;
+	color: white;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	opacity: 0.7;
+}
+
+
+.clear
+{
+	clear: both;
+}
+
+.white_text
+{
+	color: white;
+}
+
+
+#bg
+{
+	font-family:Play;
+	font-size: 30px;
+	color: white;
+	margin-top: 60px;
+	height: 590px;
+	width: 1250px;
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+}
+
+#tag
+{
+	font-family: Poiret One;
+	font-size: 140px;
+	color: white;
+	opacity: 0.6;
+	position: absolute;
+	margin-top:-75px;
+	text-shadow : 3px 2px black;
+}
+
+#tagline
+{
+	font-family: Poiret One;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	margin-top: 80px;
+	position: absolute;
+	padding-left:10px;
+}
+
+li
+{
+	cursor:pointer;
+	font-size: 25px;
+	color: black;
+	background-color: rgba(255,255,255,0.6);
+	display: inline;
+	line-height: 175%;
+	padding: 5px 30px 5px 20px;
+	box-shadow: 2px 1px rgba(0,0,0,0.5);
+	-webkit-transition: padding 1s ease;
+	-moz-transition: padding 1s ease;
+	-ms-transition: padding 1s ease;
+	-o-transition: padding 1s ease;
+	transition: padding 1s ease;
+}
+
+
+li:hover
+{
+
+	padding :5px 55px 5px 45px;
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(0,0,0,0.8);
+	-webkit-transition: padding 0.7s ease;
+	-moz-transition: padding 0.7s ease;
+	-ms-transition: padding 0.7s ease;
+	-o-transition: padding 0.7s ease;
+	transition: padding 0.7s ease;
+
+}
+
+#event
+{
+	margin-top: 160px;
+	margin-left: -50px;
+	position: absolute;
+}
+
+
+#register{
+	margin-top: 85px;
+		display: none;
+}
+
+#change
+{
+	background-color: transparent;
+	height: 450px;
+	width: 900px;
+	margin-top: 100px;
+	margin-left: 400px;
+	text-align: right;
+	overflow: hidden;
+}
+
+#head
+{
+	font-size: 50px;
+	font-weight: bolder;
+	margin-top: 90px;
+	color: rgba(255,255,255,0.8);
+	text-shadow : 2px 2px black;
+}
+
+#display1 , #display2, #display3 , #display4 , #display4, #display5, #display6 , #display7 , #display8 , #display9 , #display10
+{
+	position: absolute;
+	margin-right: 20px;
+	display: none;
+	width: 830px;
+}
+
+#display
+{
+	position: absolute;
+}
+
+
+.one
+{
+	padding-right: 20px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
